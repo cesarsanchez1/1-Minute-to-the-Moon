@@ -104,7 +104,7 @@ health.penup()
 health.hideturtle()
 health.goto(255, 275)
 global healthScore
-healthScore = 10
+healthScore = 50
 health_str = str(healthScore)
 health.write("Health: " + health_str, align="center", font=("futura", 28, "bold"))
 
@@ -170,7 +170,7 @@ def replay_button_push(x, y):
     playAgainButton.color("darkred")
     playAgain.clear()
     gameLostAlert.clear()
-    healthScore = 10
+    healthScore = 50
     health_str = str(healthScore)
     health.clear()
     health.write("Health: " + health_str, align="center", font=("futura", 28, "bold"))
